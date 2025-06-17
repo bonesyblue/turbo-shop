@@ -1,0 +1,11 @@
+appId: dev.bonesyblue.turboshop
+---
+- launchApp
+- assertVisible: "Tops"
+- tapOn: "Tops"
+- waitForAnimationToEnd
+# Title of first product on "Tops" PLP
+- assertVisible: ${PRODUCT_TITLE}
+- scroll
+- scroll
+- scroll

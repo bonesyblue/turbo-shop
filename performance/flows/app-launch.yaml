@@ -1,0 +1,4 @@
+appId: dev.bonesyblue.turboshop
+---
+- launchApp
+- assertVisible: "Tops"

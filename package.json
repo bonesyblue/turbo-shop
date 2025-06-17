@@ -5,9 +5,12 @@
   "scripts": {
     "start": "expo start",
     "android": "expo run:android",
+    "android:prod": "expo run:android --variant release",
     "ios": "expo run:ios",
+    "ios:prod": "expo run:ios --configuration Release",
     "web": "expo start --web",
-    "test": "jest --watchAll"
+    "test": "jest --watchAll",
+    "performance": "scripts/performance.sh"
   },
   "jest": {
     "preset": "jest-expo"

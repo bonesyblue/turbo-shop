@@ -9,6 +9,10 @@ dist/
 web-build/
 expo-env.d.ts
 
+# Expo prebuild
+android/
+ios/
+
 # Native
 .kotlin/
 *.orig.*
@@ -39,6 +43,5 @@ yarn-error.*
 # Visual Studio Code
 .vscode/
 
-# Expo prebuild
-android/
-ios/
+# Performance metrics
+/performance/results

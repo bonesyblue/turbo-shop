@@ -1,0 +1,7 @@
+appId: dev.bonesyblue.turboshop
+---
+- launchApp
+- assertVisible: "Tops"
+# Tap on Wishlist Tab
+- tapOn: "Wishlist"
+- assertVisible: "Wishlist Screen"
