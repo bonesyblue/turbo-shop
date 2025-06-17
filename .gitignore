@@ -38,3 +38,7 @@ yarn-error.*
 
 # Visual Studio Code
 .vscode/
+
+# Expo prebuild
+android/
+ios/
